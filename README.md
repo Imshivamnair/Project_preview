@@ -170,3 +170,43 @@
                         </tr>
                     </table>
                     <!-- END: 640px Section -->
+
+
+<!-- Two-column Idea Block -->
+
+                    <tr>
+                        <td align="center" style="padding:20px;">
+                            <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"
+                                style="width:600px; max-width:100%; border-collapse:separate;">
+                                <tr>
+                                    <!-- Left column (35% image) -->
+                                    <td width="35%" valign="top"
+                                        style="width:35%; background:#ffffff; border:1px solid #ddd; border-top-left-radius:12px; border-bottom-left-radius:12px; text-align:center; padding:20px;">
+                                        <img src="https://via.placeholder.com/100x100.png?text=Icon" width="80"
+                                            alt="Idea Icon"
+                                            style="display:block; margin:0 auto; max-width:100%; height:auto;">
+                                    </td>
+
+                                    <!-- Right column (65% text, light orange bg, rounded except bottom-left) -->
+                                    <td width="65%" valign="top"
+                                        style="width:65%; background:#FFE6CC; padding:20px; border-top-right-radius:12px; border-bottom-right-radius:12px; border-top-left-radius:12px; border-bottom-left-radius:0;">
+                                        <p
+                                            style="margin:0 0 10px; font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:20px; color:#000000;">
+                                            <b>Idea Description:</b> Lorem Ipsum is simply dummy text of the
+                                            printing and typesetting
+                                            industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                                        </p>
+                                        <p
+                                            style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:20px; color:#000000;">
+                                            <b>Some words from the team:</b> <i>"Lorem Ipsum is simply dummy text of
+                                                the printing and
+                                                typesetting industry."</i><br>
+                                            – Dimitris Cheimaras
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Two-column Idea Block Ends -->
