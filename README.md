@@ -158,3 +158,57 @@
                     </table>
 
                     <!-- Section 6 end -->
+
+ <!-- Section 7 -->
+
+                    <!-- Add this in the <head> if allowed -->
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Wrapper (template width: 640px) -->
+<table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0" align="center" style="width:640px; margin:0 auto;">
+  <tr>
+    <td style="padding:20px 30px 30px 30px; font-family:'Familjen Grotesk', sans-serif;">
+
+      <!-- Fixed-width table -->
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+             style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; table-layout:fixed; border:1px solid #ff6606;">
+        <colgroup>
+          <col style="width:33.333%;">
+          <col style="width:33.333%;">
+          <col style="width:33.333%;">
+        </colgroup>
+
+        <!-- Header -->
+        <tr>
+          <th align="center" valign="middle"
+              style="background:#ffdac6; font-weight:700; font-size:16px; line-height:1.4; padding:12px 10px; border-right:1px solid #ff6606; border-bottom:0;">
+            Ranking
+          </th>
+          <th align="center" valign="middle"
+              style="background:#ffdac6; font-weight:700; font-size:16px; line-height:1.4; padding:12px 10px; border-right:1px solid #ff6606; border-bottom:0;">
+            Name
+          </th>
+          <th align="center" valign="middle"
+              style="background:#ffdac6; font-weight:700; font-size:16px; line-height:1.4; padding:12px 10px; border-bottom:0;">
+            Points
+          </th>
+        </tr>
+
+        <!-- Rows -->
+        <tr>
+          <td align="center" style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">1</td>
+          <td align="center" style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">John Doe</td>
+          <td align="right"  style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606;">100</td>
+        </tr>
+        <tr>
+          <td align="center" style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">2</td>
+          <td align="center" style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">John Doe</td>
+          <td align="right"  style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606;">100</td>
+        </tr>
+        <!-- Repeat rows as needed -->
+      </table>
+
+    </td>
+  </tr>
+</table>
+ <!-- Section 7 end -->
