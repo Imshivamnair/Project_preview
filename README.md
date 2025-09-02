@@ -1,50 +1,160 @@
-<!-- START: 35% | 10px gap | 65% (Outlook-safe, 640px wide) -->
-                    <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0"
-                        style="background:#ffffff;">
+    <!-- Section 6 -->
+
+                    <!-- Add this in the <head> of your email if possible -->
+                    <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;700&display=swap"
+                        rel="stylesheet">
+
+                    <!-- Wrapper (template width: 640px) -->
+                    <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0" align="center"
+                        style="width:640px; margin:0 auto;">
                         <tr>
-                            <td align="center" style="padding:20px;">
-                                <table role="presentation" width="640" border="0" cellspacing="0" cellpadding="0"
-                                    style="width:640px; max-width:100%;">
+                            <td style="padding:20px 30px 30px 30px; font-family:'Familjen Grotesk', sans-serif;">
+
+                                <!-- Table -->
+                                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                                    style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; table-layout:auto; border:1px solid #ff6606;">
                                     <tr>
-                                        <!-- LEFT BOX (35%) -->
-                                        <td width="224" valign="top"
-                                            style="width:224px; background:#ffffff; padding:16px; border:1px solid #e6a26a;">
-                                            <img src="https://via.placeholder.com/300x300.png?text=Image"
-                                                alt="Placeholder" width="100%"
-                                                style="display:block; width:100%; height:auto; border:0; line-height:100%; outline:none; text-decoration:none;">
+                                        <!-- Header cells: no bottom border; light orange background -->
+                                        <th align="center" valign="middle"
+                                            style="background:#ffdac6; font-weight:700; font-size:16px; line-height:1.4; padding:12px 10px; border-right:1px solid #ff6606; border-bottom:0;">
+                                            Ranking
+                                        </th>
+                                        <th align="center" valign="middle"
+                                            style="background:#ffdac6; font-weight:700; font-size:16px; line-height:1.4; padding:12px 10px; border-right:1px solid #ff6606; border-bottom:0;">
+                                            Name
+                                        </th>
+                                        <th align="center" valign="middle"
+                                            style="background:#ffdac6; font-weight:700; font-size:16px; line-height:1.4; padding:12px 10px; border-right:0; border-bottom:0;">
+                                            Points
+                                        </th>
+                                    </tr>
+
+                                    <!-- Rows -->
+                                    <tr>
+                                        <td align="center" valign="middle"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            1</td>
+                                        <td align="center" valign="middle"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            John Doe</td>
+                                        <td align="right" valign="middle"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:0;">
+                                            100
                                         </td>
-
-                                        <!-- GAP (10px) -->
-                                        <td width="10" style="width:10px; font-size:0; line-height:0;">&nbsp;</td>
-
-                                        <!-- RIGHT BOX (65%) -->
-                                        <td width="406" valign="top"
-                                            style="width:406px; background:#FFE6CC; padding:16px; border:1px solid #e6a26a;">
-                                            <h3
-                                                style="margin:0 0 8px; font-family:Arial, Helvetica, sans-serif; font-size:18px; line-height:24px; color:#333333; font-weight:700;">
-                                                <b>Idea Description:</b>
-                                            </h3>
-                                            <p
-                                                style="margin:0 0 12px; font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:22px; color:#333333;">
-                                                Lorem ipsum is simply dummy text of the printing and typesetting
-                                                industry. Lorem ipsum has
-                                                been the
-                                                industry’s standard dummy text ever.
-                                            </p>
-                                            <h4
-                                                style="margin:0 0 6px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:22px; color:#333333; font-weight:700;">
-                                                <b>Some words from the team:</b>
-                                            </h4>
-                                            <p
-                                                style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:22px; color:#333333;">
-                                                <i>“Lorem ipsum is simply dummy text of the printing and typesetting
-                                                    industry.”</i><br>
-                                                – Dimitris Cheimaras
-                                            </p>
+                                    </tr>
+                                    <tr>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            2</td>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            John Doe</td>
+                                        <td align="right"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:0;">
+                                            100
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            3</td>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            John Doe</td>
+                                        <td align="right"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:0;">
+                                            100
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            4</td>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            John Doe</td>
+                                        <td align="right"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:0;">
+                                            100
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            5</td>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            John Doe</td>
+                                        <td align="right"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:0;">
+                                            100
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            6</td>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            John Doe</td>
+                                        <td align="right"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:0;">
+                                            100
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            7</td>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            John Doe</td>
+                                        <td align="right"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:0;">
+                                            100
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            8</td>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            John Doe</td>
+                                        <td align="right"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:0;">
+                                            100
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            9</td>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            John Doe</td>
+                                        <td align="right"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:0;">
+                                            100
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            10</td>
+                                        <td align="center"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:1px solid #ff6606;">
+                                            John Doe</td>
+                                        <td align="right"
+                                            style="font-size:16px; padding:12px 10px; border-top:1px solid #ff6606; border-right:0;">
+                                            100
                                         </td>
                                     </tr>
                                 </table>
+                                <!-- /Table -->
+
                             </td>
                         </tr>
                     </table>
-                    <!-- END -->
+
+                    <!-- Section 6 end -->
