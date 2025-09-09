@@ -1,59 +1,28 @@
-<!-- 3-box section (640px container, Outlook-safe) -->
-<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="640" align="center" style="width:640px; margin:0 auto;">
-  <tr>
-    <!-- Box 1 (203px) -->
-    <td width="203" valign="top" style="width:203px;">
-      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border:1px solid #ff6606;">
-        <tr>
-          <td align="center" style="padding:18px 14px 10px 14px;">
-            <img src="https://via.placeholder.com/48" width="48" height="48" alt="" style="display:block; border:0; outline:none; text-decoration:none;">
-          </td>
-        </tr>
-        <tr>
-          <td align="center" style="padding:0 14px 16px 14px; font:700 16px/1.3 'Mark Offc For MC','Roboto',Arial,Helvetica,Verdana,Segoe,sans-serif; color:#111111; mso-line-height-rule:exactly;">
-            XX of ideas submitted
-          </td>
-        </tr>
-      </table>
-    </td>
+<table width="640" cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse:collapse;">
+    <tr>
+        <td style="padding:20px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                <tr>
+                    <!-- Text Section -->
+                    <td valign="top" bgcolor="#ffdac6"
+                        style="padding:10px; font-family: Arial, Helvetica, sans-serif; font-size:14px; line-height:20px; color:#333333;">
+                        <strong>Idea Description:</strong> Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.<br><br>
+                        <strong>Some words from the team:</strong> <em>"Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry."</em><br>
+                        – Dimitris Cheimaras
+                    </td>
 
-    <!-- Gap (16px = 2.5%) -->
-    <td width="16" style="width:16px; font-size:0; line-height:0;">&nbsp;</td>
+                    <!-- Gap -->
+                    <td width="5" style="font-size:0; line-height:0;">&nbsp;</td>
 
-    <!-- Box 2 (202px) -->
-    <td width="202" valign="top" style="width:202px;">
-      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border:1px solid #ff6606;">
-        <tr>
-          <td align="center" style="padding:18px 14px 10px 14px;">
-            <img src="https://via.placeholder.com/48" width="48" height="48" alt="" style="display:block; border:0; outline:none; text-decoration:none;">
-          </td>
-        </tr>
-        <tr>
-          <td align="center" style="padding:0 14px 16px 14px; font:700 16px/1.3 'Mark Offc For MC','Roboto',Arial,Helvetica,Verdana,Segoe,sans-serif; color:#111111; mso-line-height-rule:exactly;">
-            XX of ideas approved
-          </td>
-        </tr>
-      </table>
-    </td>
-
-    <!-- Gap (16px) -->
-    <td width="16" style="width:16px; font-size:0; line-height:0;">&nbsp;</td>
-
-    <!-- Box 3 (203px) -->
-    <td width="203" valign="top" style="width:203px;">
-      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border:1px solid #ff6606;">
-        <tr>
-          <td align="center" style="padding:18px 14px 10px 14px;">
-            <img src="https://via.placeholder.com/48" width="48" height="48" alt="" style="display:block; border:0; outline:none; text-decoration:none;">
-          </td>
-        </tr>
-        <tr>
-          <td align="center" style="padding:0 14px 16px 14px; font:700 16px/1.3 'Mark Offc For MC','Roboto',Arial,Helvetica,Verdana,Segoe,sans-serif; color:#111111; mso-line-height-rule:exactly;">
-            XX of ideas implemented
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
+                    <!-- Image Section -->
+                    <td valign="top" style="padding:0;">
+                        <img src="https://via.placeholder.com/100" width="100" alt="Icon"
+                            style="display:block; border:0; outline:none; text-decoration:none;">
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
 </table>
-<!-- /3-box section -->
